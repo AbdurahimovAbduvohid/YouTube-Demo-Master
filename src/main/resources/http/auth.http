@@ -1,0 +1,48 @@
+POST localhost:8080/auth/public/registration
+Content-Type: application/json
+
+{
+  "name": "vohid",
+  "email": "bosss01sss@gmail.com",
+  "password": "123456"
+}
+###
+POST localhost:8080/auth/public/registration
+Content-Type: application/json
+
+{
+  "name": "Ali",
+  "email": "bosss01sss@gmail.com",
+  "password": "123"
+}
+
+###
+POST localhost:8080/auth/public/login
+Content-Type: application/json
+
+{
+  "email": "world997dev@mail.ru",
+  "password": "123"
+}
+###
+POST localhost:8080/auth/public/login
+Content-Type: application/json
+
+{
+  "email": "bosss01sss@gmail.com",
+  "password": "123456"
+}
+###
+POST localhost:8080/auth/public/login
+Content-Type: application/json
+
+{
+  "email": "bosss01sss@gmail.com",
+  "password": "123456"
+}
+
+###
+GET http://localhost:8080/auth/public/email/verification/18
+
+###
+GET http://localhost:8080/auth/public/resend/email/eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTc5NDUwODAsImV4cCI6MTY1ODE2MTA4MCwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxN30.EO6StcseJpeH0nAkNeAVAs4tof1F0Y5oifm5nH1adiE

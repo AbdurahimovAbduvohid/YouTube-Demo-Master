@@ -1,0 +1,12 @@
+POST localhost:8080/channel/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTgwNTk5MDAsImV4cCI6MTY1ODI3NTkwMCwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxN30._a0RKaOCCX9smemRt-ZjhPt4gwb6TtyK9JVy-nGehGY
+
+{
+  "name": "C++",
+  "description": "Dasturlash bo'yicha",
+  "photo": "7cb47edc-45df-469e-b74f-5e155342e47e",
+  "banner": "7cb47edc-45df-469e-b74f-5e155342e47e",
+  "status": "PUBLIC"
+
+}

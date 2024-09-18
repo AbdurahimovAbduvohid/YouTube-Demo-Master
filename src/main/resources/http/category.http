@@ -1,0 +1,10 @@
+POST localhost:8080/category/adm/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTc5NDU3OTksImV4cCI6MTY1ODE2MTc5OSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxfQ.wIr0mNxdys7R8ytRJTNz9S38r2-aZh5LpbrMksAqmok
+
+{
+  "name": "456"
+}
+
+###
+GET  localhost:8080/category/public/list
